@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>چت با هوش مصنوعی</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="app">
+        <!-- بخش اصلی چت -->
+        <div class="main">
+            <div class="chat-header">
+                <h1>چت با هوش مصنوعی</h1>
+                <button id="clearChat" class="btn-danger">🗑️ پاک کردن چت</button>
+            </div>
+            
+            <div class="messages" id="messages">
+                <!-- پیام خوش‌آمدگویی -->
+                <div class="message bot">
+                    <div class="avatar">🤖</div>
+                    <div class="content">
+                        <div class="name">دستیار هوشمند</div>
+                        <div class="text">سلام! چطور می‌توانم کمک کنم؟</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="input-area">
+                <textarea 
+                    id="userInput" 
+                    placeholder="پیام خود را بنویسید... (Shift + Enter برای ارسال)"
+                    rows="1"
+                ></textarea>
+                <button id="sendBtn" class="btn-send">ارسال</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
