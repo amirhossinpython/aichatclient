@@ -17,7 +17,7 @@ def main():
         print("برای جلوگیری از تداخل، نام دیگری انتخاب کن.")
         return
 
-    ai = AICustom.load_model(name=old_name,api_key="sk-hy24-u2h3TyQdaCr0wTwzlXMS3wc7FQsJWl_t_giauAYqMkQ")
+    ai = AICustom.load_model(name=old_name,api_key="")
 
     print("Before rename:", AICustom.list_models())
 
