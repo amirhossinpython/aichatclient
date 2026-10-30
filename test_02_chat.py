@@ -8,7 +8,7 @@ def main():
     print("=" * 45)
 
     # کلید API را از محیط می‌خوانیم.
-    api_key = "sk-hy24-u2h3TyQdaCr0wTwzlXMS3wc7FQsJWl_t_giauAYqMkQ"
+    api_key = ""
 
     if not api_key:
         raise RuntimeError("OPENAI_API_KEY is not set.")
