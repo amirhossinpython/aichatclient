@@ -2,7 +2,7 @@ from aichatclient import AICustom
 
 
 def main():
-    ai = AICustom.load_model(name="mirbotai_1",api_key="sk-hy24-u2h3TyQdaCr0wTwzlXMS3wc7FQsJWl_t_giauAYqMkQ")
+    ai = AICustom.load_model(name="mirbotai_1",api_key="")
 
     print("Nickname:", ai.nickname)
     print("Provider:", ai.model_provider)
