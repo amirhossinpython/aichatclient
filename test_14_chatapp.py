@@ -3,7 +3,7 @@ from aichatclient import AICustom, ChatApp
 
 
 def main():
-    api_key = "sk-hy24-u2h3TyQdaCr0wTwzlXMS3wc7FQsJWl_t_giauAYqMkQ"
+    api_key = ""
 
     if not api_key:
         raise RuntimeError("متغیر OPENAI_API_KEY تنظیم نشده است.")
