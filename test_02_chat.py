@@ -1,5 +1,5 @@
 import os
-from chat import AICustom
+from  aichatclient import AICustom
 
 
 def main():
